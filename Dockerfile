@@ -1,9 +1,5 @@
-FROM electerious/ackee:latest
+FROM verdaccio/verdaccio
 
 EXPOSE 80
 
-COPY docker-entrypoint.sh /srv/
-
-ENTRYPOINT ["/srv/docker-entrypoint.sh"]
-
-CMD yarn run start
+CMD ["verdaccio","--listen", "0.0.0.0:80"]
