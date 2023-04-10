@@ -20,7 +20,8 @@ plugins: /verdaccio/plugins
 
 # https://verdaccio.org/docs/webui
 web:
-  title: Verdaccio
+  title: NPM
+  primary_color: "#CC3534"
   # comment out to disable gravatar support
   # gravatar: false
   # by default packages are ordercer ascendant (asc|desc)
@@ -34,10 +35,10 @@ web:
   # showSettings: true
   # In combination with darkMode you can force specific theme
   # showThemeSwitch: true
-  # showFooter: true
-  # showSearch: true
+  showFooter: false
+  showSearch: false
   # showRaw: true
-  # showDownloadTarball: true
+  showDownloadTarball: false
   #  HTML tags injected after manifest <scripts/>
   # scriptsBodyAfter:
   #    - '<script type="text/javascript" src="https://my.company.com/customJS.min.js"></script>'
