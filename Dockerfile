@@ -6,4 +6,4 @@ VOLUME ["$V_PATH/conf", "$V_PATH/storage", "$V_PATH/plugins"]
 
 EXPOSE 80
 
-CMD ["verdaccio","--listen", "0.0.0.0:80", "--config", "/data/verdaccio/conf/config.yaml"]
+CMD ["verdaccio","--listen", "0.0.0.0:80"]
